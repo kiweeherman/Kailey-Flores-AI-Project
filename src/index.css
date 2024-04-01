@@ -70,3 +70,10 @@ a {
 .leftAlign {
   text-align: left;
 }
+.white {
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 20px;
+  box-shadow: -19px 16px 25px rgba(156, 49, 24, 0.2);
+}
