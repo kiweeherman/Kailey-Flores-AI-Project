@@ -27,12 +27,13 @@
           type="text"
           placeholder="Give the AI a hint"
           class="arsenal-bold"
+          id="user-instructions"
         />
         <button class="arsenal-bold">Submit</button>
       </form>
       <br />
       <br />
-      <div id="character-sheet"></div>
+      <div id="character-sheet" class="leftAlign"></div>
     </div>
     <br />
     <footer class="center">
@@ -48,5 +49,6 @@
     </footer>
     <script src="src/index.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </body>
 </html>
