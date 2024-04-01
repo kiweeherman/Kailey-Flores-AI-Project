@@ -29,7 +29,7 @@
   font-variation-settings: "MORF" 15, "SHLN" 50;
 }
 .larger-text {
-  font-size: 390%;
+  font-size: 350%;
 }
 .center {
   text-align: center;
@@ -40,4 +40,30 @@
   margin: 10%;
   margin-top: 0;
   border-radius: 20px;
+}
+body {
+  background: #1d0116;
+}
+input {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+button {
+  border-radius: 20px;
+  transition: ease-in-out 200ms;
+  background: #e84a5f;
+  font-size: 15px;
+  padding: 10px;
+  color: #fecea8;
+}
+button:hover {
+  background-color: #fecea8;
+  color: #45171d;
+}
+footer {
+  color: #fecea8;
+}
+a {
+  color: #ff847c;
 }
